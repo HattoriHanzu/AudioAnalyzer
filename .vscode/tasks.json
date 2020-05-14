@@ -8,7 +8,8 @@
             "args": [
                 "main.cpp",
                 "-o",
-                "${workspaceFolderBasename}"
+                "${workspaceFolderBasename}",
+                "-lrtaudio"
             ],
             "problemMatcher": []
         },

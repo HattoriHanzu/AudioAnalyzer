@@ -1,7 +1,10 @@
 #include <iostream>
-#include "rtAudio/RtAudio.h"
+#include <RtAudio.h>
 
 int main() {
-    RtAudio rtAudio;
+    RtAudio *audio = 0;
+    audio = new RtAudio;
+    std::cout<<"Hello rtAudio"<<std::endl;
+    delete audio;
     return 0;
 }
